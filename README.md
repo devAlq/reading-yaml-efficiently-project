@@ -2,7 +2,7 @@
 ## Objective
 
 
-### Tokonizer project
+### Tokenizer project
 You have a YAML file containing:
 ```
 name:ProjectOne
@@ -10,7 +10,7 @@ version:1
 ````
 
 
-### Parasing project
+### Parsing project
 
 
-### Search an element in YAML file
+### Search an element in the YAML file
