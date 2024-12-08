@@ -43,13 +43,17 @@ value:1
  - [ ] The code should run successfully.
  - [ ] The output should match the expected output.
 
+<hr>
+
 ### Search an element in the YAML file
 
 #### Problem
+You're required to build a search function that takes two parameters first parameter should take either a key or value, and the second parameter takes a string that matches the first parameter. 
+
+Finally, write the time complexity and space complexity of the function as a comment above the function. 
 
 #### Implementation
 
 #### Quaification to pass
  - [ ] The code should run successfully.
- - [ ] The output should match the expected output.
-
+ - [ ] The time complexity and space complexity should be correct.
