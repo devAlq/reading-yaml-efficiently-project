@@ -27,14 +27,29 @@ The output should be:
 
 <hr>
 
-### Tokenizer project
-You have a YAML file containing the following:
-```
-name:ProjectOne
-version:1
-````
-
 ### Parsing project
+#### Problem
+You're required to print the `tokenizer` content, but the output should be as follows:
+```
+key:name
+value:ProjectOne
+key:version
+value:1
+```
 
+#### Implementation
+
+#### Quaification to pass
+ - [ ] The code should run successfully.
+ - [ ] The output should match the expected output.
 
 ### Search an element in the YAML file
+
+#### Problem
+
+#### Implementation
+
+#### Quaification to pass
+ - [ ] The code should run successfully.
+ - [ ] The output should match the expected output.
+
