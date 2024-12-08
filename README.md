@@ -2,8 +2,10 @@
 ### Objective
 These projects aim to practice algorithms and analyze their time complexity and space complexity.
 
-## Tokenizer YAML file 
-Problem
+<hr>
+
+### Tokenizer YAML file 
+#### Problem
 You have a YAML file `example.yml` which contains: 
 ```
 name:ProjectOne
@@ -16,12 +18,14 @@ The output should be:
 'name', 'ProjectOne', 'version', '1'
 ```
 
-Implementation
+#### Implementation
 
 
-Qualification to pass
+#### Qualification to pass
  - [ ] The code should run successfully.
  - [ ] The output should match the expected output.
+
+<hr>
 
 ### Tokenizer project
 You have a YAML file containing the following:
