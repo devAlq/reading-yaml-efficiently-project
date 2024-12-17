@@ -1,6 +1,6 @@
 # Parsing YAML Project
 ### Objective
-These projects aim to practice algorithms and analyze their time complexity and space complexity.
+These projects aim to practice algorithms and analyze their time and space complexity.
 
 <hr>
 
