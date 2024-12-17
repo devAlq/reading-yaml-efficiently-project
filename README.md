@@ -48,7 +48,7 @@ value:1
 ### Search an element in the YAML file
 
 #### Problem
-You're required to build a search function that takes two parameters first parameter should take either a key or value, and the second parameter takes a string that matches the first parameter. 
+You're required to build a search function that takes one parameter a string type. 
 
 Finally, write the time complexity and space complexity of the function as a comment above the function. 
 
