@@ -5,20 +5,24 @@ You are required to solve these three projects Tokenizer YAML file, Parsing YAML
 <hr>
 
 ### Tokenizer YAML file 
+#### Objective 
+The purpose of the project is to learn how to implement the tokenizer and analyze its time and space complexity
+
 #### Problem
 You have a YAML file `example.yml` which contains: 
 ```
 name:ProjectOne
 version:1
 ```
-You're required to read the file `example.yml` and store it in an array or linked list, but don't store the colon ":", then print it. 
+You're required to read each letter in the file `example.yml` and store it in an array or linked list, then print it. 
 
 The output should be: 
 ```
-'name', 'ProjectOne', 'version', '1'
+[n, a, m, e, :, P, r, o, j, e, c, t, O, n, e]
 ```
 
 #### Implementation
+<!-- 1- Import the `java.nio.file.Path` and `java.nio.file.Files` to read a YAML file -->
 
 
 #### Qualification to pass
