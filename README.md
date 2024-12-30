@@ -1,12 +1,12 @@
 # Parsing YAML Project
 ### Objective
-These projects aim to practice algorithms and analyze their time and space complexity.
+These projects aim to practice algorithms and calculate their time and space complexity.
 You are required to solve these three projects Tokenizer YAML file, Parsing YAML file, and Search for a word in YAML file. 
 <hr>
 
 ### Tokenizer YAML file 
 #### Objective 
-The purpose of the project is to learn how to implement the tokenizer and analyze its time and space complexity
+The purpose of the project is to learn how to implement the tokenizer and calculate its time and space complexity
 
 #### Problem
 You have a YAML file `example.yml` which contains: 
