@@ -12,12 +12,12 @@ The purpose of the project is to learn how to implement the tokenizer and calcul
 > **Tokenizer** takes a string value or file and categorizes it  based on the value of its id, string, or number. Finally, it puts the tokens' value into an array list and tokens' type into an array list.
 
 #### Problem
-You have a YAML file `example.yml` which contains: 
+You have a `yaml_cotent`  which is:
 ```
 name: "ProjectOne"
 
 ```
-You're required to read each letter in the file `example.yml` and store it in an array or linked list, then print it. 
+You're required to read each letter in the file `yaml_cotent` and store it in an array or linked list, then print it. 
 
 The output should be: 
 ```
