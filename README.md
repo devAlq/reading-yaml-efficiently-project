@@ -25,9 +25,6 @@ The output should be:
 ['id', 'colon', 'whitespace', 'string']
 ```
 
-#### Implementation
-<!-- 1- Import the `java.nio.file.Path` and `java.nio.file.Files` to read a YAML file -->
-
 
 #### Qualification to pass
  - [ ] The code should run successfully.
@@ -37,12 +34,10 @@ The output should be:
 
 ### Parsing project
 #### Problem
-You're required to print the `tokenizer` content, but the output should be as follows:
+You're required to print the `tokenizer` content, but the output should be as the following:
 ```
 key:name
 value:ProjectOne
-key:version
-value:1
 ```
 
 #### Implementation
