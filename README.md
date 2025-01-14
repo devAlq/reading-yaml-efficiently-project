@@ -17,7 +17,7 @@ You have a `yaml_cotent`  which is:
 name: "ProjectOne"
 
 ```
-You're required to read each letter in the file `yaml_cotent` and store it in an array or linked list, then print it. 
+You're required to read each letter in the file `yaml_cotent` and identify if the content is id , string or number.
 
 The output should be: 
 ```
