@@ -9,7 +9,7 @@ You are required to solve these three projects Tokenizer YAML file, Parsing YAML
 #### Objective 
 The purpose of the project is to learn how to implement the tokenizer and calculate its time and space complexity
 
-> **Tokenizer** takes a string value or file and categorizes it  based on the value of its id, string, or number. Finally, it puts the tokens into an array list.
+> **Tokenizer** takes a string value or file and categorizes it  based on the value of its id, string, or number. Finally, it puts the tokens' value into an array list and tokens' type into an array list.
 
 #### Problem
 You have a YAML file `example.yml` which contains: 
