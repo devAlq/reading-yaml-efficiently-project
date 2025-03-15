@@ -18,7 +18,7 @@ You have a `yaml_cotent`  which is:
 name: "ProjectOne"
 
 ```
-You're required to read each letter in the file `yaml_cotent` and identify if the content is id , string or number.
+You're required to read each letter in the file `yaml_cotent` and identify if the content is `id`, `string`, `number`, `whitespace`, or `colon`.
 
 The output should be: 
 ```
