@@ -3,21 +3,39 @@ import java.util.StringTokenizer;
 
 class ParsingYaml {
     String s;
+    ArrayList<String> parsingArray = new ArrayList<String>();
+
 
     public ParsingYaml(String s) {
         this.s = s;
-    }
 
+
+    }
     public void ParsingProject() {
-        ArrayList<String> parsingArray = new ArrayList<String>();
+        
         int stringLength = s.length();
         StringTokenizer st = new StringTokenizer(s, ": ");
 
         // Tokenize the string and print each token
         while (st.hasMoreTokens()) {
-            System.out.println("key: " + st.nextToken());
-            System.out.println("value: " + st.nextToken());
+            this.parsingArray.add(st.nextToken());
+            this.parsingArray.add(st.nextToken());
+        }print();
+    }
+    public void print(){
+        for(int x = 0; x<this.parsingArray.size(); x++){
+            System.out.println("key:"+ " " + this.parsingArray.get(x));
+            x++;
+            System.out.println("value:" + " " + this.parsingArray.get(x));
+
         }
+    }
+    public boolean search(String goal){
+        for(int x = 0; x<this.parsingArray.size(); x++){
+            if(this.parsingArray.get(x).equals(goal) ){
+                return true;
+            }
+        }return false;
     }
 }
 
@@ -85,10 +103,19 @@ class Tokenizer {
 
 class Main {
     public static void main(String[] args) {
-        String yaml_content = "name1: khalid name2: sari name3: mohammed";
+        String yaml_content = "name1: khalid name2: 33";
         Tokenizer obj = new Tokenizer(yaml_content);
+
         obj.codeRunner();
+        
+
+        ParsingYaml q = new ParsingYaml(yaml_content);
+        q.ParsingProject();
+       System.out.println(q.search("khalid"));
       
       
     }
 }
+
+// TIMR IS N
+// SPACE IS 1
